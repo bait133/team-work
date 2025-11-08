@@ -247,3 +247,90 @@ button:hover {
   width: 250px;
   border-radius: 50%;
 }
+/* .footer {
+    width: 350px;
+    height: 400px;
+    border-radius: 18px;
+    box-shadow: 0 15px 18px black;
+}
+.main {
+    width: 450px;
+    height: 430px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 14px 13px;
+    margin: 0 auto; 
+    box-shadow: rgba(0, 0, 0, 0.5);   
+}
+
+.main img {
+    width: 100%;
+    height: 300px;
+} */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ayana {
+    width: 1127px;
+    height: 528px;
+    margin: 0 auto;
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.left {
+    width: 40%;
+}
+
+.left h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.left p {
+    line-height: 1.5;
+}
+
+.right {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+
+.hero-section {
+    width: 1058px;
+    height: 699px;
+    border: 2px solid black;
+    max-width: 1200px;
+    padding: 50px 20px;
+    margin: 0 auto;
+}
+
+
+.content-container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 50px;
+    position: relative;
+}
