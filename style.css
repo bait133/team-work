@@ -1,11 +1,13 @@
- :root{
+*{box-sizing:border-box}
+
+:root{
     --accent:#e14b55;
     --muted:#6b7280; 
     --bg:#fafafa;
     --card:#ffffff;
     --maxw:980px;
   }
-  *{box-sizing:border-box}
+  
   body{
     font-family:Inter,system-ui,Arial,sans-serif;
     margin:0;
